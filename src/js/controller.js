@@ -4,6 +4,8 @@ import 'regenerator-runtime/runtime';
 import receipeView from './views/receipeView.js';
 import searchView from './views/searchView.js';
 import resultsView from './views/resultsView.js';
+import paginationView from './views/paginationView.js';
+import { nextPageButton } from './config.js';
 //console.log(icons);
 
 // console.log(recipeContainer);
@@ -33,15 +35,28 @@ const controlSearchResults = async function () {
     if (!query) return;
     //load search results
     model.state.search.results = await model.loadSearchResults(query);
-    console.log(model.state.search.results);
+    //console.log(model.getSearchResultsPage(1));
+    //console.log(model.state.search.results);
 
-    resultsView.render(model.state.search.results);
+    resultsView.render(model.getSearchResultsPage(model.state.search.page));
+    paginationView.render(model.state.search);
+    //resultsView.render(model.state.search.results);
   } catch (err) {
     console.log(err);
   }
 };
+
+const controlPagination = function (goToPage) {
+  console.log('pagination');
+  model.state.search.page = goToPage;
+  //renderNew result
+  resultsView.render(model.getSearchResultsPage(model.state.search.page));
+  ///render new pagination
+  paginationView.render(model.state.search);
+};
 const init = function () {
   receipeView.addHandlerRender(controlRecipes);
   searchView.addHandlerSearch(controlSearchResults);
+  paginationView.addHandlerClick(controlPagination);
 };
 init();

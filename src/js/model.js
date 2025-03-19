@@ -1,5 +1,5 @@
 import { async } from 'regenerator-runtime';
-import { API_URL } from './config';
+import { API_URL, RES_PER_PAGE } from './config';
 import { getJSON } from './helper';
 import receipeView from './views/receipeView.js';
 if (module.hot) {
@@ -10,6 +10,8 @@ export const state = {
   search: {
     query: '',
     results: [],
+    page: 1,
+    resultPerPage: RES_PER_PAGE,
   },
 };
 
@@ -43,7 +45,6 @@ export const loadSearchResults = async function (query) {
     const data = await getJSON(`${API_URL}?search=${query}`);
 
     console.log('search data : ', data);
-    console.log('search  state : ', state.search);
     state.search.results = data.data.recipes.map(rec => {
       return {
         id: rec.id,
@@ -52,9 +53,17 @@ export const loadSearchResults = async function (query) {
         image: rec.image_url,
       };
     });
-    console.log(state.search.results);
+    // console.log('search  state : ', state.search);
+    // console.log(state.search.results);
     return state.search.results;
   } catch (err) {
     receipeView.renderError(err);
   }
+};
+
+export const getSearchResultsPage = function (page = state.search.page) {
+  const start = (page - 1) * state.search.resultPerPage;
+  const end = page * state.search.resultPerPage;
+  //console.log(state.search.results.slice(start, end));
+  return state.search.results.slice(start, end);
 };

@@ -1,4 +1,4 @@
-8124
+8125
 62D:\JS\frokifyApp\node_modules\@parcel\core\src\public\Asset.js133867648395030333 0
 33D:\JS\frokifyApp\src\js\helper.js133868206187882933 0
 44D:\JS\frokifyApp\node_modules\core-js\stable133867648437486636 1
@@ -12,13 +12,13 @@
 25D:\JS\frokifyApp\src\sass133867648443250837 1
 67D:\JS\frokifyApp\node_modules\core-js\features\date\to-primitive.js133867648430947366 0
 70D:\JS\frokifyApp\node_modules\lightningcss-win32-x64-msvc\package.json133867648440172309 0
-21D:\JS\frokifyApp\dist133868263686764634 1
+21D:\JS\frokifyApp\dist133868542494768427 1
 68D:\JS\frokifyApp\node_modules\@swc\helpers\cjs\_class_call_check.cjs133867648424625918 0
 62D:\JS\frokifyApp\node_modules\core-js\actual\instance\slice.js133867648428535544 0
 57D:\JS\frokifyApp\node_modules\core-js\actual\math\cbrt.js133867648428635773 0
 44D:\JS\frokifyApp\node_modules\ws\wrapper.mjs133867648443139179 0
 61D:\JS\frokifyApp\node_modules\caniuse-lite\data\regions\CA.js133867648427161401 0
-27D:\JS\frokifyApp\index.html133868256547527739 0
+27D:\JS\frokifyApp\index.html133868415163881347 0
 55D:\JS\frokifyApp\node_modules\@parcel\watcher\src\linux133867648420023596 1
 61D:\JS\frokifyApp\node_modules\core-js\stable\symbol\search.js133867648437369067 0
 43D:\JS\frokifyApp\node_modules\color-convert133867648428003883 1
@@ -38,7 +38,7 @@
 66D:\JS\frokifyApp\node_modules\core-js\stable\date\to-iso-string.js133867648436652134 0
 58D:\JS\frokifyApp\node_modules\weak-lru-cache\tests\test.js133867648443139179 0
 50D:\JS\frokifyApp\node_modules\lmdb\src\lmdb-js.cpp133867648440832281 0
-42D:\JS\frokifyApp\dist\favicon.8b2f57bf.png133868260973846183 0
+42D:\JS\frokifyApp\dist\favicon.8b2f57bf.png133868528221825398 0
 55D:\JS\frokifyApp\node_modules\semver\functions\minor.js133867648442621075 0
 79D:\JS\frokifyApp\node_modules\@parcel\package-manager\src\NodePackageManager.js133867648396232396 0
 35D:\JS\frokifyApp\node_modules\@lmdb133867671103785294 1
@@ -59,10 +59,10 @@
 53D:\JS\frokifyApp\node_modules\core-js\stage\README.md133867648437506671 0
 40D:\JS\frokifyApp\node_modules\parse-json133867648441355941 1
 75D:\JS\frokifyApp\node_modules\core-js\features\typed-array\last-index-of.js133867648432176772 0
-38D:\JS\frokifyApp\src\js\views\views.js133868263194787008 0
+38D:\JS\frokifyApp\src\js\views\views.js133868423754110085 0
 70D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\int8-array.js133867648437409119 0
 84D:\JS\frokifyApp\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\src133867648395455486 1
-37D:\JS\frokifyApp\src\js\controller.js133868260969314208 0
+37D:\JS\frokifyApp\src\js\controller.js133868541979870683 0
 62D:\JS\frokifyApp\node_modules\core-js\features\string\blink.js133867648431784859 0
 64D:\JS\frokifyApp\node_modules\sass\types\logger\source_span.d.ts133867648442496242 0
 73D:\JS\frokifyApp\node_modules\@swc\helpers\cjs\_sliced_to_array_loose.cjs133867648424781436 0
@@ -122,7 +122,7 @@
 47D:\JS\frokifyApp\node_modules\@msgpackr-extract133867671103785294 1
 58D:\JS\frokifyApp\node_modules\sass\types\value\string.d.ts133867648442536321 0
 38D:\JS\frokifyApp\src\sass\_upload.scss133867648443250837 0
-33D:\JS\frokifyApp\src\js\config.js133868203516981040 0
+33D:\JS\frokifyApp\src\js\config.js133868542494415920 0
 68D:\JS\frokifyApp\node_modules\core-js\internals\date-to-primitive.js133867648434319731 0
 74D:\JS\frokifyApp\node_modules\core-js\internals\error-stack-installable.js133867648434319731 0
 62D:\JS\frokifyApp\node_modules\postcss-value-parser\lib\unit.js133867648441512330 0
@@ -130,7 +130,7 @@
 66D:\JS\frokifyApp\node_modules\core-js\internals\native-raw-json.js133867648434479651 0
 70D:\JS\frokifyApp\node_modules\core-js\features\string\virtual\index.js133867648431926672 0
 78D:\JS\frokifyApp\node_modules\@swc\helpers\cjs\_class_apply_descriptor_get.cjs133867648424625918 0
-32D:\JS\frokifyApp\src\js\model.js133868256037747340 0
+32D:\JS\frokifyApp\src\js\model.js133868508131798031 0
 72D:\JS\frokifyApp\node_modules\@parcel\markdown-ansi\lib\markdown-ansi.js133867648395930428 0
 61D:\JS\frokifyApp\node_modules\caniuse-lite\data\regions\GA.js133867648427285241 0
 66D:\JS\frokifyApp\node_modules\core-js\stable\string\virtual\sup.js133867648437328983 0
@@ -149,21 +149,24 @@
 66D:\JS\frokifyApp\node_modules\core-js\actual\instance\find-last.js133867648428495462 0
 62D:\JS\frokifyApp\node_modules\core-js\proposals\error-cause.js133867648436286578 0
 53D:\JS\frokifyApp\node_modules\core-js\es\math\cosh.js133867648429737539 0
-29D:\JS\frokifyApp\src\js\views133868210753449055 1
+29D:\JS\frokifyApp\src\js\views133868454751373968 1
+102D:\JS\frokifyApp\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test133867648440832281 0
+64D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\some.js133867648437446556 0
+60D:\JS\frokifyApp\node_modules\type-fest\source\asyncify.d.ts133867648442934824 0
+35D:\JS\frokifyApp\node_modules\chalk133867648427865941 1
+56D:\JS\frokifyApp\node_modules\utility-types\CHANGELOG.md133867648442934824 0
+72D:\JS\frokifyApp\node_modules\caniuse-lite\data\features\magnetometer.js133867648426422825 0
+56D:\JS\frokifyApp\node_modules\core-js\es\array\values.js133867648429287735 0
+34D:\JS\frokifyApp\node_modules\lmdb133867648440832281 1
+65D:\JS\frokifyApp\node_modules\core-js\features\symbol\iterator.js133867648432037459 0
+70D:\JS\frokifyApp\node_modules\@mischnic\json-sourcemap\dist\index.d.ts133867648393854577 0
+67D:\JS\frokifyApp\node_modules\@swc\helpers\_\_decorate\package.json133867648424305551 0
+63D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\map.js133867648437429144 0
+47D:\JS\frokifyApp\src\js\views\paginationView.js133868539994550470 0
 53D:\JS\frokifyApp\node_modules\js-yaml\lib\type\str.js133867648439152023 0
 44D:\JS\frokifyApp\src\js\views\receipeView.js133868242878307258 0
 59D:\JS\frokifyApp\node_modules\core-js\stable\reflect\set.js133867648436976922 0
 44D:\JS\frokifyApp\node_modules\semver\classes133867648442580435 1
-56D:\JS\frokifyApp\node_modules\msgpackr-extract\README.md133867648440832281 0
-73D:\JS\frokifyApp\node_modules\@parcel\watcher\src\linux\InotifyBackend.hh133867648420023596 0
-55D:\JS\frokifyApp\node_modules\semver\functions\major.js133867648442621075 0
-38D:\JS\frokifyApp\node_modules\entities133867648438349340 1
-56D:\JS\frokifyApp\node_modules\msgpackr\dist\index.js.map133867648441057004 0
-69D:\JS\frokifyApp\node_modules\core-js\full\string\virtual\trim-end.js133867648433939999 0
-69D:\JS\frokifyApp\node_modules\core-js\features\typed-array\entries.js133867648432101517 0
-102D:\JS\frokifyApp\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\lib\decode.js133867648441586276 0
-61D:\JS\frokifyApp\node_modules\core-js\full\iterator\concat.js133867648433115192 0
-70D:\JS\frokifyApp\node_modules\core-js\modules\es.json.to-string-tag.js133867648435102890 0
 81D:\JS\frokifyApp\node_modules\@parcel\core\test\fixtures\custom-format-infer-type133867648395415356 1
 58D:\JS\frokifyApp\node_modules\core-js\es\set\difference.js133867648430072374 0
 49D:\JS\frokifyApp\node_modules\posthtml\lib\api.js133867648441566235 0
@@ -301,11 +304,6 @@
 71D:\JS\frokifyApp\node_modules\core-js\stable\string\virtual\includes.js133867648437271441 0
 61D:\JS\frokifyApp\node_modules\core-js\features\url\to-json.js133867648432280644 0
 97D:\JS\frokifyApp\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\README.md133867648441198693 0
-102D:\JS\frokifyApp\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-test133867648440832281 0
-64D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\some.js133867648437446556 0
-60D:\JS\frokifyApp\node_modules\type-fest\source\asyncify.d.ts133867648442934824 0
-35D:\JS\frokifyApp\node_modules\chalk133867648427865941 1
-56D:\JS\frokifyApp\node_modules\utility-types\CHANGELOG.md133867648442934824 0
 47D:\JS\frokifyApp\node_modules\globals\readme.md133867648438405366 0
 44D:\JS\frokifyApp\node_modules\dom-serializer133867648437674354 1
 62D:\JS\frokifyApp\node_modules\core-js\full\string\ends-with.js133867648433683857 0
@@ -343,6 +341,16 @@
 70D:\JS\frokifyApp\node_modules\core-js\internals\array-last-index-of.js133867648434162751 0
 56D:\JS\frokifyApp\node_modules\core-js\full\math\scale.js133867648433375007 0
 63D:\JS\frokifyApp\node_modules\core-js\internals\iterator-map.js133867648434479651 0
+56D:\JS\frokifyApp\node_modules\msgpackr-extract\README.md133867648440832281 0
+73D:\JS\frokifyApp\node_modules\@parcel\watcher\src\linux\InotifyBackend.hh133867648420023596 0
+55D:\JS\frokifyApp\node_modules\semver\functions\major.js133867648442621075 0
+38D:\JS\frokifyApp\node_modules\entities133867648438349340 1
+56D:\JS\frokifyApp\node_modules\msgpackr\dist\index.js.map133867648441057004 0
+69D:\JS\frokifyApp\node_modules\core-js\full\string\virtual\trim-end.js133867648433939999 0
+69D:\JS\frokifyApp\node_modules\core-js\features\typed-array\entries.js133867648432101517 0
+102D:\JS\frokifyApp\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\lib\decode.js133867648441586276 0
+61D:\JS\frokifyApp\node_modules\core-js\full\iterator\concat.js133867648433115192 0
+70D:\JS\frokifyApp\node_modules\core-js\modules\es.json.to-string-tag.js133867648435102890 0
 47D:\JS\frokifyApp\node_modules\type-fest\license133867648442777555 0
 69D:\JS\frokifyApp\node_modules\core-js\features\symbol\to-primitive.js133867648432077557 0
 51D:\JS\frokifyApp\node_modules\dotenv-expand\LICENSE133867648437918707 0
@@ -453,9 +461,6 @@
 71D:\JS\frokifyApp\node_modules\core-js\internals\advance-string-index.js133867648434162751 0
 47D:\JS\frokifyApp\node_modules\lines-and-columns133867648440291533 1
 73D:\JS\frokifyApp\node_modules\core-js\features\number\max-safe-integer.js133867648431439444 0
-72D:\JS\frokifyApp\node_modules\caniuse-lite\data\features\magnetometer.js133867648426422825 0
-56D:\JS\frokifyApp\node_modules\core-js\es\array\values.js133867648429287735 0
-34D:\JS\frokifyApp\node_modules\lmdb133867648440832281 1
 52D:\JS\frokifyApp\node_modules\core-js\stable\reflect133867648436976922 1
 51D:\JS\frokifyApp\node_modules\@parcel\utils\LICENSE133867648419420607 0
 40D:\JS\frokifyApp\node_modules\micromatch133867648440832281 1
@@ -1011,7 +1016,7 @@
 70D:\JS\frokifyApp\node_modules\core-js\modules\es.symbol.constructor.js133867648435480038 0
 64D:\JS\frokifyApp\node_modules\entities\lib\decode_codepoint.d.ts133867648438160565 0
 72D:\JS\frokifyApp\node_modules\type-fest\source\require-at-least-one.d.ts133867648442934824 0
-44D:\JS\frokifyApp\dist\index.f7626f62.css.map133868260973962332 0
+44D:\JS\frokifyApp\dist\index.f7626f62.css.map133868528221632899 0
 62D:\JS\frokifyApp\node_modules\@swc\helpers\_\_get\package.json133867648424305551 0
 64D:\JS\frokifyApp\node_modules\type-fest\source\set-optional.d.ts133867648442934824 0
 64D:\JS\frokifyApp\node_modules\source-map-js\lib\binary-search.js133867648442641136 0
@@ -1331,7 +1336,7 @@
 62D:\JS\frokifyApp\node_modules\core-js\internals\to-set-like.js133867648434868490 0
 61D:\JS\frokifyApp\node_modules\core-js\features\reflect\set.js133867648431647698 0
 58D:\JS\frokifyApp\node_modules\semver\ranges\min-version.js133867648442641136 0
-39D:\JS\frokifyApp\dist\logo.726d37a8.png133868260973846183 0
+39D:\JS\frokifyApp\dist\logo.726d37a8.png133868528221571180 0
 75D:\JS\frokifyApp\node_modules\@swc\helpers\esm\_class_private_method_set.js133867648424940054 0
 54D:\JS\frokifyApp\node_modules\semver\ranges\outside.js133867648442641136 0
 64D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\fill.js133867648437389094 0
@@ -1483,10 +1488,6 @@
 58D:\JS\frokifyApp\node_modules\sass\types\value\number.d.ts133867648442536321 0
 71D:\JS\frokifyApp\node_modules\core-js\stable\instance\to-well-formed.js133867648436782394 0
 70D:\JS\frokifyApp\node_modules\posthtml-parser\dist\location-tracker.js133867648441512330 0
-79D:\JS\frokifyApp\node_modules\posthtml\node_modules\entities\lib\index.d.ts.map133867648441670726 0
-70D:\JS\frokifyApp\node_modules\core-js\full\set\symmetric-difference.js133867648433683857 0
-57D:\JS\frokifyApp\node_modules\core-js\stable\url\index.js133867648437486636 0
-63D:\JS\frokifyApp\node_modules\core-js\modules\es.reflect.has.js133867648435263500 0
 62D:\JS\frokifyApp\node_modules\sass\types\legacy\exception.d.ts133867648442463090 0
 75D:\JS\frokifyApp\node_modules\core-js\modules\esnext.async-iterator.find.js133867648435672757 0
 77D:\JS\frokifyApp\node_modules\core-js\stable\string\virtual\to-well-formed.js133867648437328983 0
@@ -1728,6 +1729,10 @@
 52D:\JS\frokifyApp\node_modules\immutable\package.json133867648438835036 0
 74D:\JS\frokifyApp\node_modules\posthtml\node_modules\entities\lib\generated133867648441670726 1
 48D:\JS\frokifyApp\node_modules\core-js\full\error133867648432750226 1
+79D:\JS\frokifyApp\node_modules\posthtml\node_modules\entities\lib\index.d.ts.map133867648441670726 0
+70D:\JS\frokifyApp\node_modules\core-js\full\set\symmetric-difference.js133867648433683857 0
+57D:\JS\frokifyApp\node_modules\core-js\stable\url\index.js133867648437486636 0
+63D:\JS\frokifyApp\node_modules\core-js\modules\es.reflect.has.js133867648435263500 0
 68D:\JS\frokifyApp\node_modules\@parcel\runtime-service-worker\LICENSE133867648397227176 0
 75D:\JS\frokifyApp\node_modules\@parcel\transformer-raw\src\RawTransformer.js133867648419279557 0
 67D:\JS\frokifyApp\node_modules\htmlnano\lib\modules\mergeScripts.mjs133867648438674203 0
@@ -2279,7 +2284,7 @@
 80D:\JS\frokifyApp\node_modules\@swc\helpers\esm\_unsupported_iterable_to_array.js133867648424940054 0
 59D:\JS\frokifyApp\node_modules\htmlnano\lib\presets\safe.mjs133867648438674203 0
 76D:\JS\frokifyApp\node_modules\core-js\internals\environment-is-ios-pebble.js133867648434319731 0
-40D:\JS\frokifyApp\dist\icons.21bad73c.svg133868260973942211 0
+40D:\JS\frokifyApp\dist\icons.21bad73c.svg133868528221888894 0
 65D:\JS\frokifyApp\node_modules\core-js\es\typed-array\to-sorted.js133867648430456344 0
 71D:\JS\frokifyApp\node_modules\core-js\features\array\virtual\entries.js133867648430704122 0
 48D:\JS\frokifyApp\node_modules\msgpackr\unpack.js133867648441178593 0
@@ -2518,7 +2523,6 @@
 72D:\JS\frokifyApp\node_modules\@parcel\workers\lib\core-worker.browser.js133867648420023596 0
 51D:\JS\frokifyApp\node_modules\caniuse-lite\dist\lib133867648427845902 1
 62D:\JS\frokifyApp\node_modules\lmdb\dependencies\lmdb\libraries133867648440386177 1
-50D:\JS\frokifyApp\node_modules\js-yaml\CHANGELOG.md133867648438993131 0
 70D:\JS\frokifyApp\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb133867648440514916 1
 75D:\JS\frokifyApp\node_modules\core-js\internals\weak-map-basic-detection.js133867648434908546 0
 46D:\JS\frokifyApp\node_modules\cosmiconfig\dist133867648437674354 1
@@ -2639,7 +2643,7 @@
 59D:\JS\frokifyApp\node_modules\core-js\es\instance\splice.js133867648429645748 0
 58D:\JS\frokifyApp\node_modules\core-js\stable\date\index.js133867648436632097 0
 46D:\JS\frokifyApp\node_modules\dotenv\config.js133867648438053321 0
-43D:\JS\frokifyApp\dist\index.e37f48ea.js.map133868263686733686 0
+43D:\JS\frokifyApp\dist\index.e37f48ea.js.map133868542494768427 0
 49D:\JS\frokifyApp\node_modules\htmlnano\index.d.ts133867648438634991 0
 54D:\JS\frokifyApp\node_modules\domutils\lib\legacy.d.ts133867648437918707 0
 72D:\JS\frokifyApp\node_modules\core-js\modules\es.object.is-extensible.js133867648435102890 0
@@ -2656,6 +2660,7 @@
 51D:\JS\frokifyApp\node_modules\entities\lib\index.js133867648438339368 0
 63D:\JS\frokifyApp\node_modules\core-js\full\typed-array\slice.js133867648434005601 0
 69D:\JS\frokifyApp\node_modules\json-parse-even-better-errors\README.md133867648439152023 0
+50D:\JS\frokifyApp\node_modules\js-yaml\CHANGELOG.md133867648438993131 0
 83D:\JS\frokifyApp\node_modules\core-js\modules\esnext.uint8-array.set-from-base64.js133867648436091183 0
 42D:\JS\frokifyApp\node_modules\js-yaml\dist133867648439103596 1
 41D:\JS\frokifyApp\node_modules\js-yaml\lib133867648439152023 1
@@ -3046,7 +3051,7 @@
 49D:\JS\frokifyApp\node_modules\fractional\index.js133867671103497737 0
 51D:\JS\frokifyApp\node_modules\core-js\stable\string133867648437251411 1
 53D:\JS\frokifyApp\node_modules\fractional\package.json133867671103443159 0
-40D:\JS\frokifyApp\dist\index.f7626f62.css133868260973761865 0
+40D:\JS\frokifyApp\dist\index.f7626f62.css133868528221571180 0
 61D:\JS\frokifyApp\node_modules\@parcel\diagnostic\package.json133867648395635258 0
 50D:\JS\frokifyApp\node_modules\fractional\README.md133867671103454653 0
 66D:\JS\frokifyApp\node_modules\caniuse-lite\data\features\dialog.js133867648426067585 0
@@ -3588,10 +3593,6 @@
 71D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\int32-array.js133867648437409119 0
 64D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\join.js133867648437409119 0
 64D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\keys.js133867648437429144 0
-65D:\JS\frokifyApp\node_modules\core-js\features\symbol\iterator.js133867648432037459 0
-70D:\JS\frokifyApp\node_modules\@mischnic\json-sourcemap\dist\index.d.ts133867648393854577 0
-67D:\JS\frokifyApp\node_modules\@swc\helpers\_\_decorate\package.json133867648424305551 0
-63D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\map.js133867648437429144 0
 62D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\of.js133867648437429144 0
 67D:\JS\frokifyApp\node_modules\core-js\stable\instance\find-index.js133867648436722308 0
 72D:\JS\frokifyApp\node_modules\core-js\stable\typed-array\reduce-right.js133867648437429144 0
@@ -5361,7 +5362,6 @@
 64D:\JS\frokifyApp\node_modules\core-js\full\array\virtual\some.js133867648432421274 0
 53D:\JS\frokifyApp\node_modules\@swc\helpers\_\_type_of133867648424464246 1
 64D:\JS\frokifyApp\node_modules\core-js\full\date\to-iso-string.js133867648432690051 0
-62D:\JS\frokifyApp\node_modules\core-js\features\map\group-by.js133867648431295544 0
 63D:\JS\frokifyApp\node_modules\core-js\full\date\to-primitive.js133867648432710114 0
 73D:\JS\frokifyApp\node_modules\core-js\full\data-view\get-uint8-clamped.js133867648432628154 0
 73D:\JS\frokifyApp\node_modules\core-js\full\data-view\set-uint8-clamped.js133867648432669112 0
@@ -5667,6 +5667,7 @@
 73D:\JS\frokifyApp\node_modules\@parcel\transformer-js\src\JSTransformer.js133867648419279557 0
 76D:\JS\frokifyApp\node_modules\@parcel\types-internal\lib\PackageManager.d.ts133867648419420607 0
 67D:\JS\frokifyApp\node_modules\core-js\features\map\get-or-insert.js133867648431295544 0
+62D:\JS\frokifyApp\node_modules\core-js\features\map\group-by.js133867648431295544 0
 62D:\JS\frokifyApp\node_modules\core-js\features\map\includes.js133867648431312969 0
 64D:\JS\frokifyApp\node_modules\core-js\es\object\is-extensible.js133867648429914639 0
 59D:\JS\frokifyApp\node_modules\core-js\features\map\index.js133867648431312969 0
@@ -6632,7 +6633,7 @@
 70D:\JS\frokifyApp\node_modules\core-js\actual\array\virtual\index-of.js133867648428161418 0
 68D:\JS\frokifyApp\node_modules\@swc\helpers\esm\_apply_decs_2203_r.js133867648424781436 0
 67D:\JS\frokifyApp\node_modules\core-js\actual\array\virtual\index.js133867648428161418 0
-40D:\JS\frokifyApp\dist\icons.dfd7a6db.svg133868260973761865 0
+40D:\JS\frokifyApp\dist\icons.dfd7a6db.svg133868528221550400 0
 63D:\JS\frokifyApp\node_modules\@parcel\reporter-cli\src\emoji.js133867648396797868 0
 65D:\JS\frokifyApp\node_modules\core-js\actual\array\virtual\map.js133867648428161418 0
 74D:\JS\frokifyApp\node_modules\core-js\actual\array\virtual\reduce-right.js133867648428161418 0
@@ -6732,7 +6733,7 @@
 77D:\JS\frokifyApp\node_modules\caniuse-lite\data\features\css-focus-visible.js133867648425696231 0
 61D:\JS\frokifyApp\node_modules\caniuse-lite\data\regions\DK.js133867648427221504 0
 61D:\JS\frokifyApp\node_modules\caniuse-lite\data\regions\DO.js133867648427241531 0
-32D:\JS\frokifyApp\dist\index.html133868260974572670 0
+32D:\JS\frokifyApp\dist\index.html133868422696188278 0
 81D:\JS\frokifyApp\node_modules\@parcel\transformer-react-refresh-wrap\package.json133867648419279557 0
 61D:\JS\frokifyApp\node_modules\caniuse-lite\data\regions\DZ.js133867648427241531 0
 61D:\JS\frokifyApp\node_modules\caniuse-lite\data\regions\EC.js133867648427241531 0
@@ -7555,7 +7556,7 @@
 43D:\JS\frokifyApp\node_modules\@parcel\graph133867648395848131 1
 51D:\JS\frokifyApp\node_modules\@parcel\optimizer-css133867648396025033 1
 53D:\JS\frokifyApp\node_modules\@parcel\optimizer-image133867648396071727 1
-39D:\JS\frokifyApp\dist\index.e37f48ea.js133868263686666428 0
+39D:\JS\frokifyApp\dist\index.e37f48ea.js133868542494748023 0
 51D:\JS\frokifyApp\node_modules\@parcel\optimizer-swc133867648396121936 1
 50D:\JS\frokifyApp\node_modules\@parcel\packager-css133867648396381518 1
 46D:\JS\frokifyApp\node_modules\@parcel\profiler133867648396675068 1

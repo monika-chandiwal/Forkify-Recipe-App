@@ -6,9 +6,9 @@ export default class Views {
     this._parentElement.innerHTML = '';
   }
   render(data) {
-    if (!data || Array.isArray(data) || data.length == 0)
-      return this.renderError();
-    console.log('inside render', data);
+    console.log('render data : ', data);
+    if (!data || data.length == 0) return this.renderError();
+    //console.log('inside render', data);
     this._data = data;
     const markup = this._generateMerkup();
     this._clear();
