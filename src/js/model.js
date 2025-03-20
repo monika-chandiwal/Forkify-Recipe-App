@@ -2,17 +2,21 @@ import { async } from 'regenerator-runtime';
 import { API_URL, RES_PER_PAGE } from './config';
 import { getJSON } from './helper';
 import receipeView from './views/receipeView.js';
+import bookmarkView from './views/bookmarkView.js';
 if (module.hot) {
   module.hot.accept();
 }
 export const state = {
-  recipe: {},
+  recipe: {
+    bookmarked: false,
+  },
   search: {
     query: '',
     results: [],
     page: 1,
     resultPerPage: RES_PER_PAGE,
   },
+  bookmark: [],
 };
 
 export const loadRecipe = async function (id) {
@@ -32,6 +36,9 @@ export const loadRecipe = async function (id) {
       servings: recipe.servings,
       sourceUrl: recipe.source_url,
     };
+    if (state.bookmark.some(bookmark => bookmark.id === id))
+      state.recipe.bookmarked = true;
+    else state.recipe.bookmarked = false;
     console.log(state.recipe);
   } catch (err) {
     receipeView.renderError(err);
@@ -67,3 +74,46 @@ export const getSearchResultsPage = function (page = state.search.page) {
   //console.log(state.search.results.slice(start, end));
   return state.search.results.slice(start, end);
 };
+
+export const updateServings = function (newServings) {
+  state.recipe.ingredients.forEach(ing => {
+    ing.quantity = (ing.quantity * newServings) / state.recipe.servings;
+  });
+  state.recipe.servings = newServings;
+};
+export const addBookmarks = function (recipe) {
+  //addBookmark
+  state.bookmark.push(recipe);
+  if (recipe.id === state.recipe.id) state.recipe.bookmarked = true;
+  console.log(state.bookmark);
+  setLocalStorage();
+};
+export const removeBookmarks = function (id) {
+  //removeBookmark
+  const idx = state.bookmark.findIndex(el => el.id === id);
+  state.bookmark.splice(idx, 1);
+  if (id === state.recipe.id) state.recipe.bookmarked = false;
+  console.log(state.bookmark);
+  setLocalStorage();
+};
+
+const setLocalStorage = function () {
+  localStorage.setItem('bookmark', JSON.stringify(state.bookmark));
+};
+const init = function () {
+  try {
+    const data = localStorage.getItem('bookmark');
+    if (!data) return;
+    state.bookmark = JSON.parse(data) || [];
+    bookmarkView.update(state.bookmark);
+  } catch (error) {
+    console.error('Error parsing localStorage data:', error);
+  }
+};
+init();
+console.log(state.bookmark);
+
+const clearBookmarks = function () {
+  localStorage.clear('bookmark');
+};
+//clearBookmarks();

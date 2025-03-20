@@ -9,6 +9,25 @@ class RecipeView extends View {
   _data;
   _parentElement = document.querySelector('.recipe');
 
+  addHandlerUpdateServings(handler) {
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.btn--tiny');
+      if (!btn) return;
+      console.log(btn);
+      const serving = +btn.dataset.ser;
+      console.log(serving);
+      handler(serving <= 0 ? 1 : serving);
+    });
+  }
+
+  addhandlerAddBookmark(handler) {
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.btn--bookmark');
+      console.log('bookmark ; ', btn);
+      if (!btn) return;
+      handler();
+    });
+  }
   _generateMerkup() {
     return `<figure class="recipe__fig">
           <img src="${this._data.image}" alt="${
@@ -38,13 +57,17 @@ class RecipeView extends View {
             }</span>
             <span class="recipe__info-text">servings</span>
 
-            <div class="recipe__info-buttons">
-              <button class="btn--tiny btn--increase-servings">
+            <div  class="recipe__info-buttons">
+              <button data-ser="${
+                this._data.servings - 1
+              }" class="btn--tiny btn--increase-servings">
                 <svg>
                   <use href="${icons}#icon-minus-circle"></use>
                 </svg>
               </button>
-              <button class="btn--tiny btn--increase-servings">
+              <button data-ser="${
+                this._data.servings + 1
+              }" class="btn--tiny btn--increase-servings">
                 <svg>
                   <use href="${icons}#icon-plus-circle"></use>
                 </svg>
@@ -57,9 +80,11 @@ class RecipeView extends View {
               <use href="${icons}#icon-user"></use>
             </svg>
           </div>
-          <button class="btn--round">
+          <button class="btn--round btn--bookmark">
             <svg class="">
-              <use href="${icons}#icon-bookmark-fill"></use>
+              <use href="${icons}#icon-bookmark${
+      this._data.bookmarked ? '-fill' : ''
+    }"></use>
             </svg>
           </button>
         </div>
