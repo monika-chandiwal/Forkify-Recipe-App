@@ -5,7 +5,7 @@
   "defualt": "index.html",
   "scripts": {
     "start": "parcel index.html --cache-dir D:/JS/frokifyApp/.parcel-cache",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html && cp src/img/icons.svg dist/img/icons.svg"
   },
   "author": "",
   "license": "ISC",

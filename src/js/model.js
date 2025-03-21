@@ -112,7 +112,7 @@ const init = function () {
     const data = localStorage.getItem('bookmark');
     if (!data) return;
     state.bookmark = JSON.parse(data) || [];
-    bookmarkView.update(state.bookmark);
+    bookmarkView.render(state.bookmark);
   } catch (error) {
     console.error('Error parsing localStorage data:', error);
   }
