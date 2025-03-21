@@ -1,16 +1,18 @@
 {
   "name": "frokifyapp",
   "version": "1.0.0",
+  "description": "Recipe Application",
+  "defualt": "index.html",
   "scripts": {
     "start": "parcel index.html --cache-dir D:/JS/frokifyApp/.parcel-cache",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "svgo": "^3.3.2"
   },
   "dependencies": {
     "core-js": "^3.41.0",
